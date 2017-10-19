@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var url = "https://wind-bow.gomix.me/twitch-api/streams/"
+  var url = "https://wind-bow.gomix.me/twitch-api/channels/"
   var streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]
   var callback = "?callback=?"
 

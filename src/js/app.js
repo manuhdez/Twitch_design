@@ -95,7 +95,7 @@ for (var i=0; i < streamers.length; i++) {
     $('#all').addClass('text-lighten-1');
     $('#offline').addClass('text-lighten-1');
     $(this).removeClass('text-lighten-1');
-    $(this).addClass('text-lighten-5');
+    $(this).addClass('active');
 
     $('.offline').hide();
     $('.online').show();
@@ -108,7 +108,7 @@ for (var i=0; i < streamers.length; i++) {
     $('#online').addClass('text-lighten-1');
     $('#offline').addClass('text-lighten-1');
     $(this).removeClass('text-lighten-1');
-    $(this).addClass('text-lighten-5');
+    $(this).addClass('active');
 
     $('.online').show();
     $('.offline').show();
@@ -121,9 +121,8 @@ for (var i=0; i < streamers.length; i++) {
     $('#all').addClass('text-lighten-1');
     $('#online').addClass('text-lighten-1');
     $(this).removeClass('text-lighten-1');
-    $(this).addClass('text-lighten-5');
+    $(this).addClass('active');
 
     $('.online').hide();
     $('.offline').show();
   });
-  
